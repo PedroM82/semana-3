@@ -1,0 +1,100 @@
+
+body{
+    background-color: #fff7ed;
+    
+    color :rgb(77, 76, 76);
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: "Quicksand", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+}
+
+h1,
+h2,
+address{
+    padding-top: 25px;
+    color: rgb(48, 48, 48);
+}
+
+
+strong{
+    color: rgb(194, 51, 51);
+}
+
+
+
+ul{
+    background-color: rgb(253, 253, 253);
+    max-width: 700px;
+
+    border-left: 5px solid;
+    border-color: rgb(165, 42, 42);
+    box-shadow: 9px 9px 7px -6px rgba(199,199,199,1);
+}
+
+li{
+    margin-bottom: 6px;
+    color: rgb(194, 51, 51);
+}
+
+a{
+    text-decoration-color: brown;
+}
+
+form{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    max-width: 740px;
+    padding-bottom: 1px;
+
+    border-left: 5px solid;
+    border-color: rgb(165, 42, 42);
+    box-shadow: 9px 9px 7px -6px rgba(199,199,199,1);
+}
+
+label, input, textarea, select, button{
+    display: block;
+    margin-left: 15px;
+    width: 705px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Quicksand", "Helvetica", "Arial", sans-serif;
+
+    border-color: rgba(165, 42, 42, 0);
+}
+
+label{
+    font-size: 22px;
+}
+
+input, textarea, select, button{
+    background-color: #e7e5e4;
+}
+
+select{
+    width: 720px;
+}
+
+textarea{
+    width: 708px;
+    resize: none;
+    max-lines: 8;
+    font-size: 18px;
+}
+
+button{
+    display: block;
+    font-size: 20px;
+    font-family: "Quicksand", "Helvetica", "Arial", sans-serif;
+    margin: 15px 15px 5px 15px;
+    width: 720px;
+}
+
+button:hover{
+   background-color: #d6d3d1;
+}
+
+
+footer{
+    margin-bottom: 25px;
+}
